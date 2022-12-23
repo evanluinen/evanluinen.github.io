@@ -26,6 +26,9 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
+
+				$wrapper.addClass("scaleup");
+				window.scrollTo(0,0);
 			}, 100);
 		});
 
