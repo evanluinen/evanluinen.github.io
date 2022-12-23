@@ -1895,15 +1895,8 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		-moz-transition: opacity 1s ease-in-out;
-		-webkit-transition: opacity 1s ease-in-out;
-		-ms-transition: opacity 1s ease-in-out;
-		transition: opacity 1s ease-in-out;
 	}
 
-		body.is-preload #wrapper {
-			opacity: 0;
-		}
 
 		@media screen and (max-width: 1280px) {
 
@@ -2188,3 +2181,11 @@ input, select, textarea {
 			}
 
 		}
+
+	.scaled {
+		transform: scale(1, 0);
+	}
+	.scaleup {
+		transition: transform 0.65s ease-out 0.5s;
+		transform: scale(1, 1);
+	}
