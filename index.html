@@ -6,9 +6,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="Biotechnology & Cell and Molecular Biology student at University of Rhode Island" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 
 	<noscript> <link rel="stylesheet" href="assets/css/noscript.css" /> </noscript>
 	<script src="https://kit.fontawesome.com/e5f2d81c7e.js" crossorigin="anonymous"></script>
+	<style>
+		.swiper-button-next, .swiper-button-prev {
+			color: white; /* Makes the arrows white */
+		}
+
+		.swiper-pagination-bullet {
+			background: white; /* Makes pagination dots white */
+		}
+
+		.swiper-slide img {
+			max-width: 80%; /* Contains the images within 80% of the container */
+			height: auto;
+			margin: 0 auto; /* Centers the images */
+			display: block;
+		}
+
+		.swiper-container {
+			padding: 20px 0; /* Adds some space around the images to prevent overlap */
+		}
+	</style>
+
 </head>
 <body class="is-preload">
 <!-- Wrapper -->
@@ -105,60 +127,72 @@
 		</article>
 
 		<!-- Presentations -->
+		<!-- Presentations -->
 		<article id="presentations">
 			<h2 class="major">Presentations <span class="my-name">Elise VanLuinen</span></h2>
 			<p>Here are some of my presentations.</p>
 
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="text-align: center;">
+						<img src="images/cels-presenting.jpg" alt="Image for CELS Undergraduate Research Symposium, December 2023">
+						<p style="font-style: italic; font-size: 16px; margin-top: 10px;">CELS Undergraduate Research Symposium, December 2023</p>
+						<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
+							VanLuinen, E., Waite, N., Schwartz, R. Synthesizing a reference genome for <em>Centropogon cornutus</em>. Poster presentation delivered at the URI CELS Undergraduate Research Symposium. Given December 2023.
+						</p>
+					</div>
 
+					<div class="swiper-slide" style="text-align: center;">
+						<img src="images/ssrp-presenting.JPG" alt="Image for Stanford Summer Research Symposium, August 2024">
+						<p style="font-style: italic; font-size: 16px; margin-top: 10px;">Stanford Summer Research Symposium, August 2024</p>
+						<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
+							VanLuinen, E., Walton, S., Vila, J., Petrov, D., Good, B. Monitoring changes in the African rhinoceros (<em>Diceros bicornis</em>) microbiome in relation to translocation. Oral presentation delivered at Stanford summer research symposium. Given August 2024.
+						</p>
+					</div>
 
-			<div style="text-align: center; margin-bottom: 20px;">
-				<img src="images/cels-presenting.jpg" alt="Image for CELS Undergraduate Research Symposium, December 2023" style="max-width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 16px; margin-top: 10px;">CELS Undergraduate Research Symposium, December 2023</p>
-				<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
-					VanLuinen, E., Waite, N., Schwartz, R. Synthesizing a reference genome for <em>Centropogon cornutus</em>. Poster presentation delivered at the URI CELS Undergraduate Research Symposium. Given December 2023.
-				</p>
+					<div class="swiper-slide" style="text-align: center;">
+						<img src="images/presenting2.jpg" alt="Image for URI MARC U* STAR Annual Symposium, April 2024">
+						<p style="font-style: italic; font-size: 16px; margin-top: 10px;">URI MARC U* STAR Annual Symposium, April 2024</p>
+						<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
+							VanLuinen, E. A summation of my research as a MARC U*STAR trainee. <br>Oral Presentation delivered at URI MARC U*STAR Annual Symposium. Given April 2024.
+						</p>
+					</div>
+
+					<div class="swiper-slide" style="text-align: center;">
+						<img src="images/presenting.jpg" alt="Image for URI Undergraduate Research Fellows Symposium, July 2023">
+						<p style="font-style: italic; font-size: 16px; margin-top: 10px;">URI Undergraduate Research Fellows Symposium, July 2023</p>
+						<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
+							VanLuinen, E., Waite, N., Schwartz, R. <em>Centropogon cornutus</em> genome assembly and analysis. Oral presentation delivered at the URI Undergraduate Research Fellows Symposium. Given July 2023.
+						</p>
+					</div>
+
+					<div class="swiper-slide" style="text-align: center;">
+						<img src="images/abrcms-presenting.jpg" alt="Image for ABRCMS, November 2023">
+						<p style="font-style: italic; font-size: 16px; margin-top: 10px;">Annual Biomedical Conference for Minoritized Students (ABRCMS), November 2023</p>
+						<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
+							VanLuinen, E., Waite, N., Schwartz, R. Synthesizing a reference genome for <em>Centropogon cornutus</em>. Poster presentation delivered at the Annual Biomedical Research Conference for Minoritized Students (ABRCMS). Given November 2023.
+						</p>
+					</div>
+
+					<div class="swiper-slide" style="text-align: center;">
+						<img src="images/presenting-uri-pharm.jpg" alt="Image for URI College of Pharmacy Undergraduate Research Symposium, April 2024">
+						<p style="font-style: italic; font-size: 16px; margin-top: 10px;">URI College of Pharmacy Undergraduate Research Symposium, April 2024</p>
+						<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
+							VanLuinen, E., Akter, L., Li, Y., Chen, X. Flagellin-displayed HBc VLP for HA Stem-Based Universal Influenza Vaccine Development. Poster delivered at the URI College of Pharmacy Undergraduate Research symposium. Given April 2024.
+						</p>
+					</div>
+				</div>
+
+				<!-- Navigation buttons -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+
+				<!-- Pagination -->
+				<div class="swiper-pagination"></div>
 			</div>
+		</article>
 
-			<div style="text-align: center; margin-bottom: 20px;">
-				<img src="images/ssrp-presenting.JPG" alt="Image for Stanford Summer Research Symposium, August 2024" style="max-width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 16px; margin-top: 10px;">Stanford Summer Research Symposium, August 2024</p>
-				<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
-					VanLuinen, E., Walton, S., Vila, J., Petrov, D., Good, B. Monitoring changes in the African rhinoceros (<em>Diceros bicornis</em>) microbiome in relation to translocation. Oral presentation delivered at Stanford summer research symposium. Given August 2024.
-				</p>
-			</div>
 
-			<div style="text-align: center; margin-bottom: 20px;">
-				<img src="images/presenting2.jpg" alt="Image for URI MARC U* STAR Annual Symposium, April 2024" style="max-width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 16px; margin-top: 10px;">URI MARC U* STAR Annual Symposium, April 2024</p>
-				<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
-					VanLuinen, E. A summation of my research as a MARC U*STAR trainee. Oral Presentation delivered at URI MARC U*STAR Annual Symposium. Given April 2024.
-				</p>
-			</div>
-
-			<div style="text-align: center; margin-bottom: 20px;">
-				<img src="images/presenting.jpg" alt="Image for URI Undergraduate Research Fellows Symposium, July 2023" style="max-width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 16px; margin-top: 10px;">URI Undergraduate Research Fellows Symposium, July 2023</p>
-				<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
-					VanLuinen, E., Waite, N., Schwartz, R. <em>Centropogon cornutus</em> genome assembly and analysis. Oral presentation delivered at the URI Undergraduate Research Fellows Symposium. Given July 2023.
-				</p>
-			</div>
-
-			<div style="text-align: center; margin-bottom: 20px;">
-				<img src="images/abrcms-presenting.jpg" alt="Image for ABRCMS, November 2023" style="max-width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 16px; margin-top: 10px;">Annual Biomedical Conference for Minoritized Students (ABRCMS), November 2023</p>
-				<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
-					VanLuinen, E., Waite, N., Schwartz, R. Synthesizing a reference genome for <em>Centropogon cornutus</em>. Poster presentation delivered at the Annual Biomedical Research Conference for Minoritized Students (ABRCMS). Given November 2023.
-				</p>
-			</div>
-
-			<div style="text-align: center; margin-bottom: 20px;">
-				<img src="images/presenting-uri-pharm.jpg" alt="Image for URI College of Pharmacy Undergraduate Research Symposium, April 2024" style="max-width: 100%; height: auto;">
-				<p style="font-style: italic; font-size: 16px; margin-top: 10px;">URI College of Pharmacy Undergraduate Research Symposium, April 2024</p>
-				<p style="font-weight: bold; font-size: 16px; margin-top: 5px;">
-					VanLuinen, E., Akter, L., Li, Y., Chen, X. Flagellin-displayed HBc VLP for HA Stem-Based Universal Influenza Vaccine Development. Poster delivered at the URI College of Pharmacy Undergraduate Research symposium. Given April 2024.
-				</p>
-			</div>
-			</article>
 		<!-- Contact -->
 		<article id="contact">
 			<h2 class="major">Contact <span class="my-name">Elise VanLuinen</span></h2>
@@ -182,6 +216,24 @@
 <!-- BG -->
 <div id="bg"></div>
 <!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper', {
+		slidesPerView: 1,
+		spaceBetween: 20,
+		loop: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+</script>
+
+
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/browser.min.js"></script>
 <script src="assets/js/breakpoints.min.js"></script>
