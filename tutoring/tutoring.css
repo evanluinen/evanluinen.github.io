@@ -92,6 +92,8 @@ h1 span { color: var(--green); }
 .portrait img { width: 100%; height: auto; aspect-ratio: 1 / 1.1; object-fit: cover; border-radius: var(--radius-large); display: block; }
 .about-copy { max-width: 620px; }
 .about-copy p:not(.eyebrow) { margin-top: var(--space-3); }
+.journey { display: grid; grid-template-columns: 1fr; gap: var(--space-3); align-items: start; border-top: var(--rule); }
+.journey-copy { max-width: none; }
 .fit-list { list-style: none; margin: 0; padding: 0; }
 .fit-list li { position: relative; padding: 16px 0 16px 30px; border-bottom: var(--rule); font-size: .9375rem; }
 .fit-list li:first-child { padding-top: 0; }
@@ -143,6 +145,7 @@ h1 span { color: var(--green); }
   .steps p { margin-top: 8px; }
   .process-note { margin-top: var(--space-4); }
   .about { grid-template-columns: 1fr; gap: var(--space-4); }
+  .journey { grid-template-columns: 1fr; gap: var(--space-3); }
   .portrait img { width: 160px; aspect-ratio: 1; }
   .application-inner { padding: 32px 24px; }
   .application h2 { font-size: 1.9rem; }
